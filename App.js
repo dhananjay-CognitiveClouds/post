@@ -13,6 +13,24 @@ const PostFeed = () => {
     setText(text);
   };
 
+  // const handleImageSelect = () => {
+  //   ImagePicker.showImagePicker({}, (response) => {
+  //     if (response.uri) {
+  //       setImage(response.uri);
+  //     }
+  //   });
+  // };
+
+  // const handleVideoSelect = () => {
+  //   ImagePicker.showImagePicker({ mediaType: 'video' }, (response) => {
+  //     if (response.uri) {
+  //       setVideo(response.uri);
+  //     }
+  //   });
+  // };
+  
+
+
   const handleImageSelect = () => {
     ImagePicker.showImagePicker({}, (response) => {
       if (response.uri) {
@@ -20,7 +38,7 @@ const PostFeed = () => {
       }
     });
   };
-
+  
   const handleVideoSelect = () => {
     ImagePicker.showImagePicker({ mediaType: 'video' }, (response) => {
       if (response.uri) {
@@ -29,7 +47,6 @@ const PostFeed = () => {
     });
   };
   
-
 
 
 
